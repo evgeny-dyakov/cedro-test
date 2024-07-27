@@ -1,0 +1,26 @@
+.swiper {
+  height: 418px;
+  padding: 2px 0 2px 64px;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  overflow: visible;
+}
+
+.swiper-slide {
+  padding: 0 16px;
+}
+
+@media(max-width: $mobile) {
+  .swiper {
+    height: 403px;
+    padding: 2px 0 2px 11px;
+  }
+
+  .swiper-slide {
+    padding: 0 4px;
+  }
+}
