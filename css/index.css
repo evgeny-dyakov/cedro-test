@@ -70,8 +70,7 @@ html {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -564,20 +563,10 @@ html {
   border: none;
   border-radius: 4px;
 }
-.form__field input::-moz-placeholder {
-  color: rgb(var(--dark-color));
-  opacity: 0.4;
-  -moz-transition: var(--transition);
-  transition: var(--transition);
-}
 .form__field input::placeholder {
   color: rgb(var(--dark-color));
   opacity: 0.4;
   transition: var(--transition);
-}
-.form__field input:hover::-moz-placeholder {
-  color: rgb(var(--dark-color));
-  opacity: 0.8;
 }
 .form__field input:hover::placeholder {
   color: rgb(var(--dark-color));
@@ -799,4 +788,5 @@ p.trends__card-old {
   .swiper-slide {
     padding: 0 4px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=index.css.map */
